@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="420.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alumno">
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </Text>
+            <ComboBox prefHeight="23.0" prefWidth="166.0">
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+         <VBox.margin>
+            <Insets left="50.0" top="40.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Curso académico">
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </Text>
+            <ComboBox prefHeight="23.0" prefWidth="166.0">
+               <HBox.margin>
+                  <Insets left="40.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+         <VBox.margin>
+            <Insets left="50.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Asignatura">
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </Text>
+            <ComboBox prefHeight="23.0" prefWidth="166.0">
+               <HBox.margin>
+                  <Insets left="75.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+         <VBox.margin>
+            <Insets left="50.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="69.0" prefWidth="444.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nota">
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </Text>
+            <TextField prefHeight="25.0" prefWidth="169.0" promptText="Introduzca la nota">
+               <HBox.margin>
+                  <Insets left="105.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="50.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="135.0" prefWidth="537.0" spacing="50.0">
+         <children>
+            <Button id="btDownload" fx:id="btDownload" mnemonicParsing="false" text="GUARDAR NOTA" />
+            <Button mnemonicParsing="false" text="ATRAS" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
